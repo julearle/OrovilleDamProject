@@ -15,7 +15,17 @@ const int redPin = 2;             //pin to control the red LED inside the RGB LE
 const int greenPin = 3;           //pin to control the green LED inside the RGB LED
 const int bluePin = 4;            //pin to control the blue LED inside the RGB LED
 
+const int redLED = 6; //pin for only yellow led
+const int redButton = 7;
+const int yellowLED = 8; //pin for only yellow led
+const int yellowButton = 9;
+const int greenLED = 10; //pin for only yellow led
+const int greenButton = 11;
+const int blueLED = 12; //pin for only yellow led
+const int blueButton = 13;
+
 int incomingByte = 0; // for incoming serial data
+
 
 void setup()
 {
@@ -25,17 +35,39 @@ void setup()
   pinMode(redPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
   pinMode(bluePin, OUTPUT);
+
+  pinMode(redLED, OUTPUT);
+  pinMode(redButton, INPUT_PULLUP);
+  pinMode(yellowLED, OUTPUT);
+  pinMode(yellowButton, INPUT_PULLUP);
+  pinMode(greenLED, OUTPUT);
+  pinMode(greenButton, INPUT_PULLUP);
+  pinMode(blueLED, OUTPUT);
+  pinMode(blueButton, INPUT_PULLUP);
 }
 
 void loop() {
-  if (Serial.available() > 0) {
-    // read the incoming byte:
-    incomingByte = Serial.read();
+//  if (Serial.available() > 0) {
+//    // read the incoming byte:
+//    incomingByte = Serial.read();
+//
+//    // say what you got:
+//    Serial.print("I received: ");
+//    Serial.println(incomingByte, DEC);
+//  }
+  //RGBLEDLogic(incomingByte);
+  ButtonLogic();
+}
 
-    // say what you got:
-    Serial.print("I received: ");
-    Serial.println(incomingByte, DEC);
-  }
+
+void setRGBLed(int red, int green, int blue){
+  //make the RGB LED red
+    analogWrite(redPin, red);
+    analogWrite(greenPin, green);
+    analogWrite(bluePin, blue);
+}
+
+void RGBLEDLogic (int incomingByte){
   if (incomingByte == 49){
       setRGBLed(255,0,0); //red
   }
@@ -49,14 +81,12 @@ void loop() {
       setRGBLed(0,255,0); //green
   }
   else if (incomingByte == 53){
-      setRGBLed(255,0,255); //blue
+      setRGBLed(255,0,255); //purple
   }
 }
 
-
-void setRGBLed(int red, int green, int blue){
-  //make the RGB LED red
-    analogWrite(redPin, red);
-    analogWrite(greenPin, green);
-    analogWrite(bluePin, blue);
+void ButtonLogic(){
+  if (digitalRead(yellowButton) == LOW){
+    analogWrite(yellowLED, 255);
+  }
 }
