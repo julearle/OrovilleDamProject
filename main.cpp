@@ -30,7 +30,7 @@
     // A large area of concrete and foundation erosion was found, too large to repair
         //How should the engineers proceed?
             // (A) Divert the water to the emergency spillway
-            // (B)
+            // (B) Increase the flow of the hydropower plant
             // (C)
 
  //Stage 3
