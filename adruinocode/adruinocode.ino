@@ -11,6 +11,14 @@
   View circuit diagram and instructions at: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41
   Download drawings and code at: https://github.com/sparkfun/SIK-Guide-Code
 */
+#include <Servo.h>          //include the servo library
+
+int servoPosition;         //the servo will move to this position
+
+Servo myservo;              //create a servo object
+
+const int servoPin = 5; //pin to control servo
+
 const int redPin = 2;             //pin to control the red LED inside the RGB LED
 const int greenPin = 3;           //pin to control the green LED inside the RGB LED
 const int bluePin = 4;            //pin to control the blue LED inside the RGB LED
@@ -30,6 +38,11 @@ int incomingByte = 0; // for incoming serial data
 void setup()
 {
   Serial.begin (9600);        //set up a serial connection with the computer
+
+  myservo.attach(servoPin);        //tell the servo object that its servo is plugged into pin 5
+
+  pinMode(A0, INPUT_PULLUP); //set the switch pin to pullup resistor for servo control
+  myservo.write(20); //set the servo to default position
   
   //set the RGB LED pins to output
   pinMode(redPin, OUTPUT);
@@ -47,16 +60,17 @@ void setup()
 }
 
 void loop() {
-//  if (Serial.available() > 0) {
-//    // read the incoming byte:
-//    incomingByte = Serial.read();
-//
+  if (Serial.available() > 0) {
+    // read the incoming byte:
+    incomingByte = Serial.read();
+
 //    // say what you got:
 //    Serial.print("I received: ");
 //    Serial.println(incomingByte, DEC);
-//  }
-  //RGBLEDLogic(incomingByte);
+  }
+  RGBLEDLogic(incomingByte);
   ButtonLogic();
+  ServoLogic();
 }
 
 
@@ -83,10 +97,37 @@ void RGBLEDLogic (int incomingByte){
   else if (incomingByte == 53){
       setRGBLed(255,0,255); //purple
   }
+  else if (incomingByte == 54){
+      setRGBLed(0,0,0); //off
+  }
 }
 
 void ButtonLogic(){
-  if (digitalRead(yellowButton) == LOW){
+  if (digitalRead(redButton) == LOW){
+    analogWrite(redLED, 255);
+  }
+  else if (digitalRead(yellowButton) == LOW){
     analogWrite(yellowLED, 255);
+  }
+  else if (digitalRead(greenButton) == LOW){
+    analogWrite(greenLED, 255);
+  }
+  else if (digitalRead(blueButton) == LOW){
+    analogWrite(blueLED, 255);
+  }
+  else {
+    analogWrite(redLED, 0);
+    analogWrite(yellowLED, 0);
+    analogWrite(greenLED, 0);
+    analogWrite(blueLED, 0);
+  }
+}
+
+void ServoLogic(){
+  if(digitalRead(A0) == LOW){
+     myservo.write(110);                      //move the servo to the open position
+  }
+  else {
+    myservo.write(20);
   }
 }
