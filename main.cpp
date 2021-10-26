@@ -20,7 +20,7 @@
     // (A) Shut-off hydropower
     // (B) Open normal spillway
         //Display diagram of dam
-    // (C) Open sluice(s)
+    // (C) Open sluice
 // Heavy rainfall resulted in record inflows from the Feather River, and the spillway was opened in January to relieve the dam pressure
 
 
