@@ -64,9 +64,9 @@ void loop() {
     // read the incoming byte:
     incomingByte = Serial.read();
 
-//    // say what you got:
-//    Serial.print("I received: ");
-//    Serial.println(incomingByte, DEC);
+    // say what you got:
+    Serial.print("I received: ");
+    Serial.println(incomingByte, DEC);
   }
   RGBLEDLogic(incomingByte);
   ButtonLogic();
