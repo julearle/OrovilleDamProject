@@ -20,11 +20,11 @@ int main () {
     cout << "Good luck. And may the odds be ever in your favor." << endl;
     cout << "Are you ready to enter stage 1??? Please enter the letter Y to begin!!!" << endl;
     cin >> userchoice1;
-    if (userchoice1 == 'Y' && 'y') {
-        cout << "You are now entering stage 1:" << endl;
-    } else {
-        break;
+    while (userchoice1 != 'Y' || 'y') {
+        cout << "Please enter the letter Y to begin!!!" << endl;
+        cin >> userchoice1;
     }
+    cout << "You are now entering stage 1:" << endl;
 
     // Stage 1 begins
     cout
@@ -47,19 +47,10 @@ int main () {
     cout << "Choice (B) Open all sluices in spillway - press green button." << endl;
     cout << "Choice (C) Open half sluices in spillway - press blue button" << endl;
     cin >> userchoice2;
-    if (userchoice2 == 'A' && 'a') {
+    while (userchoice2 != 'B' || 'b'){
         cout << "You have made the wrong choice. Please try again." << endl;
-    } else {
-        break;
     }
-    if (userchoice2 == 'B' && 'b') {
-        cout << " Heavy rainfall resulted in record inflows from the Feather River, and the spillway was opened in January to relieve the dam pressure. Therefore, you have made the correct choice. Please proceed to stage 2." << endl;
-    }
-    if (userchoice2 == 'C' && 'c') {
-        cout << "You have made the wrong choice. Please try again." << endl;
-    } else {
-        break;
-    }
+    cout << " Heavy rainfall resulted in record inflows from the Feather River, and the spillway was opened in January to relieve the dam pressure. Therefore, you have made the correct choice. Please proceed to stage 2." << endl;
 
     //Stage 2 begins
     cout << "Welcome to stage 2. Being here means you successfully completed stage 1. Good luck!!!" << endl;
@@ -75,22 +66,12 @@ int main () {
     cout << "Choice (A) Divert the water to the emergency spillway" <<endl;
     cout << "Choice (B) Reopen the sluices, further damaging the spillway - press green button to reopen sluices" <<endl;
     cout << "Choice (C) " <<endl;
-
-    if (userchoice3 == 'A' && 'a') {
-        cout << "You have made the correct choice. Please proceed to stage 3." <<endl;
+    cin >> userchoice3;
+    while (userchoice3 != 'A' || 'a'){
+        cout << "You have made the wrong choice. Please try again." << endl;
+        cin >> userchoice3;
     }
-    else {
-        break;
-}
-    if (userchoice3 == 'B' && 'b') {
-        cout << "You have made the wrong choice. Please try again." << endl; }
-        else {
-        break; }
-
-    if (userchoice3 == 'C' && 'c') {
-        cout << "You have made the wrong choice. Please try again." << endl; }
-    else {
-        break; }
+    cout << "You have made the correct choice. Please proceed to stage 3." <<endl;
 
 //Stage 3 begins
     cout << "Welcome to stage 3. This is the second to last stage, let's see if you have what it takes to save the Orville Dam!!!" <<endl;
@@ -105,19 +86,11 @@ int main () {
     cout << "Choice (B) Evacuate people within a 50 mile radius" << endl;
     cout << "Choice (C) Do NOT evacuate anyone" << endl;
     cin >> userchoice4;
-    if (userchoice4 == 'A' && 'a') {
-        cout << "Engineers have discovered that the water flowing over the emergency spillway is eroding the hillside, threatening the integrity of the dam as a whole. Therefore, you have made the correct choice. Please proceed to stage 4." << endl;
-    }
-    if (userchoice4 == 'B' && 'b') {
+    while (userchoice4 != 'A' || 'a'){
         cout << "You have made the wrong choice. Please try again." << endl;
-    } else {
-        break;
+        cin >> userchoice4;
     }
-    if (userchoice4 == 'C' && 'c') {
-        cout << "You have made the wrong choice. Please try again." << endl;
-    } else {
-        break;
-    }
+    cout << "Engineers have discovered that the water flowing over the emergency spillway is eroding the hillside, threatening the integrity of the dam as a whole. Therefore, you have made the correct choice. Please proceed to stage 4." << endl;
 
     // Stage 4 begins
     cout << "Welcome to stage 4. This is the final stage. Goodluck!!!" << endl;
@@ -125,15 +98,12 @@ int main () {
     cout << "Choice (A) Press the green button to reopen the normal spillway sluices" << endl;
     cout << "Choice (B) Press the yellow button to NOT open the normal spillway sluices" <<endl;
     cin >> userchoice5;
-    if (userchoice5 == 'A' && 'a') {
-        cout << "The engineers to decide to open the normal spillway, therefore you have made the correct choice. Sadly, this choice will destroy the integrity of the dam, but no lives are lost!!!" << endl;
-                cout << "You have completed the Orville Dam challenge!!" << endl;
-    }
-    if (userchoice4 == 'B' && 'b') {
+    while (userchoice5 != 'A' || 'a'){
         cout << "You have made the wrong choice. Please try again." << endl;
-    } else {
-        break;
+        cin >> userchoice5;
     }
+    cout << "The engineers to decide to open the normal spillway, therefore you have made the correct choice. Sadly, this choice will destroy the integrity of the dam, but no lives are lost!!!" << endl;
+    cout << "You have completed the Orville Dam challenge!!" << endl;
     // Board displays flashing lights and congratulates the user
 }
 
