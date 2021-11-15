@@ -4,7 +4,7 @@
 #include <iostream>;
 
 using namespace std;
-int main()
+int opener()
 {
     char choice;
     cout << "y/n: ";

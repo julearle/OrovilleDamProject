@@ -3,11 +3,11 @@
 using namespace std;
 #include<iostream>
 int main () {
-    int userchoice1;
-    int userchoice2;
-    int userchoice3;
-    int userchoice4;
-    int userchoice5;
+    string userchoice1;
+    string userchoice2;
+    string userchoice3;
+    string userchoice4;
+    string userchoice5;
 
 
     cout << "Welcome to our Engineering Mystery Project!" << endl;
@@ -21,11 +21,13 @@ int main () {
     cout << "Good luck. And may the odds be ever in your favor." << endl;
     cout << "Are you ready to enter stage 1??? Please enter the letter Y to begin!!!" << endl;
     cin >> userchoice1;
-    while(userchoice1 == 'Y' || 'y') {
+    if(userchoice1 == "Y" || "y"){
+        cout << "You are now entering stage 1:" << endl;
+    }
+    else{
         cout << "Please enter the letter Y to begin!!!" << endl;
         cin >> userchoice1;
     }
-    cout << "You are now entering stage 1:" << endl;
 
     // Stage 1 begins
     cout
@@ -35,7 +37,7 @@ int main () {
             << "At 770 feet high, it is the tallest dam in the United States and serves mainly for water supply, hydroelectricity generation, and flood control."
             << endl;
     cout << "The rainy season of 2016-2017 was Northern California's wettest winter in over 100 years." << endl;
-    // FORECAST FLASHES ON SCREEN INSERT JONAHS CODE HERE
+    // FORECAST FLASHES ON SCREEN INSERT JONAH'S CODE HERE
     cout << "The RBG light represents the forecasted amount of precipitation for the reservoir in the incoming storm."
          << endl;
     cout
@@ -48,8 +50,9 @@ int main () {
     cout << "Choice (B) Open all sluices in spillway - press green button." << endl;
     cout << "Choice (C) Open half sluices in spillway - press blue button" << endl;
     cin >> userchoice2;
-    while (userchoice2 != 'B' || 'b'){
-        cout << "You have made the wrong choice. Please try again." << endl;
+    while(userchoice2 != "B" || userchoice2 != "b") {
+        cout << "Wrong choice. Try again" << endl;
+        cin >> userchoice2;
     }
     cout << " Heavy rainfall resulted in record inflows from the Feather River, and the spillway was opened in January to relieve the dam pressure. Therefore, you have made the correct choice. Please proceed to stage 2." << endl;
 
@@ -68,7 +71,7 @@ int main () {
     cout << "Choice (B) Reopen the sluices, further damaging the spillway - press green button to reopen sluices" <<endl;
     cout << "Choice (C) " <<endl;
     cin >> userchoice3;
-    while (userchoice3 != 'A' || 'a'){
+    while (userchoice3 != "B" || "b"){
         cout << "You have made the wrong choice. Please try again." << endl;
         cin >> userchoice3;
     }
@@ -87,7 +90,7 @@ int main () {
     cout << "Choice (B) Evacuate people within a 50 mile radius" << endl;
     cout << "Choice (C) Do NOT evacuate anyone" << endl;
     cin >> userchoice4;
-    while (userchoice4 != 'A' || 'a'){
+    while (userchoice4 != "B" || "b"){
         cout << "You have made the wrong choice. Please try again." << endl;
         cin >> userchoice4;
     }
@@ -99,7 +102,7 @@ int main () {
     cout << "Choice (A) Press the green button to reopen the normal spillway sluices" << endl;
     cout << "Choice (B) Press the yellow button to NOT open the normal spillway sluices" <<endl;
     cin >> userchoice5;
-    while (userchoice5 != 'A' || 'a'){
+    while (userchoice5 != "B" || "b"){
         cout << "You have made the wrong choice. Please try again." << endl;
         cin >> userchoice5;
     }

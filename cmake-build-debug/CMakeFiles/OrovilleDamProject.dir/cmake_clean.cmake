@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OrovilleDamProject.dir/main.cpp.obj"
-  "OrovilleDamProject.exe"
-  "OrovilleDamProject.exe.manifest"
+  "CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.o"
+  "CMakeFiles/OrovilleDamProject.dir/main.cpp.o"
+  "OrovilleDamProject"
   "OrovilleDamProject.pdb"
-  "libOrovilleDamProject.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
