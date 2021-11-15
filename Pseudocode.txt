@@ -1,4 +1,4 @@
-﻿Pseudocode
+Pseudocode
 
 
 //Ciara, Jonah, and Julia
@@ -62,7 +62,7 @@
        // The engineers have decided to let the dam build to the emergency spillway level
         // Because of this, the emergency action plan has to be put into place
 // Here are your options about the emergency action plan:
-// Keep in mind, evacuating people will create a panick, but not evacuating people could result in mass casualties
+// Keep in mind, evacuating people will create a panic, but not evacuating people could result in mass casualties
 //choices the user can make on the computer
 1. Evacuate people within a 10 mile radius
 2. Evacuate people within a 50 mile radius
