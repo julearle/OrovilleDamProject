@@ -64,9 +64,9 @@ void loop() {
     // read the incoming byte:
     incomingByte = Serial.read();
 
-    // say what you got:
-    Serial.print("I received: ");
-    Serial.println(incomingByte, DEC);
+//    // say what you got:
+//    Serial.print("I received: ");
+//    Serial.println(incomingByte, DEC);
   }
   RGBLEDLogic(incomingByte);
   ButtonLogic();
@@ -105,15 +105,19 @@ void RGBLEDLogic (int incomingByte){
 void ButtonLogic(){
   if (digitalRead(redButton) == LOW){
     analogWrite(redLED, 255);
+    Serial.println(1); //send a 1 for red
   }
   else if (digitalRead(yellowButton) == LOW){
     analogWrite(yellowLED, 255);
+    Serial.println(2); //send a 2 for yellow
   }
   else if (digitalRead(greenButton) == LOW){
     analogWrite(greenLED, 255);
+    Serial.println(3); //send a 3 for green
   }
   else if (digitalRead(blueButton) == LOW){
     analogWrite(blueLED, 255);
+    Serial.println(4); //send a 4 for blue
   }
   else {
     analogWrite(redLED, 0);

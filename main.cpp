@@ -10,8 +10,12 @@ int main () {
     string userchoice5;
 
 
-    cout << "Welcome to our Engineering Mystery Project!" << endl;
-    cout << "Be prepared to handle THE ORVILLE DAM CRISIS" << endl;
+//    cout << "Welcome to our Engineering Mystery Project!" << endl;
+//    cout << "Be prepared to handle THE ORVILLE DAM CRISIS" << endl;
+    cout <<"Welcome to our engineering mystery! \n Be prepared to handle the Oroville Dam crisis. We want you as the user to decipher the engineering mistake that nearly lead to one of the largest engineering failures ever. This program will guide you through the four stages that will allow you to make choices on your path to discovering what went wrong. \n Good luck. And may the odds be ever in your favor." << endl;
+    cout<<"The Oroville Dam provides water supply, hydroelectricity generation, and flood control to a region of central California. \n In Febuary 2017, a gaping hole on the dam discovered. This lead to a hasty scramble to figure out a safe solution to fix the hole while combating threats of heavy rainfall and erosion." << endl;
+    cout<<"The Arduino control panel contains four buttons and four corresponding colored LED lights that will be used throughout the game." << endl;
+
     cout
             << "We want you as the user to decipher the engineering mistake that nearly lead to one of the largest engineering failures ever."
             << endl;
@@ -19,15 +23,13 @@ int main () {
             << "This program will guide you through the four stages that will allow you to make choices on your path to discovering what went wrong."
             << endl;
     cout << "Good luck. And may the odds be ever in your favor." << endl;
-    cout << "Are you ready to enter stage 1??? Please enter the letter Y to begin!!!" << endl;
+    cout << "Are you ready to enter stage 1? Please enter the letter Y to begin!" << endl;
     cin >> userchoice1;
-    if(userchoice1 == "Y" || "y"){
-        cout << "You are now entering stage 1:" << endl;
-    }
-    else{
+    while(userchoice1 != "Y" && userchoice1 != "y"){
         cout << "Please enter the letter Y to begin!!!" << endl;
         cin >> userchoice1;
     }
+    cout << "You are now entering stage 1:" << endl;
 
     // Stage 1 begins
     cout
@@ -50,7 +52,7 @@ int main () {
     cout << "Choice (B) Open all sluices in spillway - press green button." << endl;
     cout << "Choice (C) Open half sluices in spillway - press blue button" << endl;
     cin >> userchoice2;
-    while(userchoice2 != "B" || userchoice2 != "b") {
+    while(userchoice2 != "B" && userchoice2 != "b") {
         cout << "Wrong choice. Try again" << endl;
         cin >> userchoice2;
     }
@@ -71,7 +73,7 @@ int main () {
     cout << "Choice (B) Reopen the sluices, further damaging the spillway - press green button to reopen sluices" <<endl;
     cout << "Choice (C) " <<endl;
     cin >> userchoice3;
-    while (userchoice3 != "B" || "b"){
+    while (userchoice3 != "A" && userchoice3 != "a"){
         cout << "You have made the wrong choice. Please try again." << endl;
         cin >> userchoice3;
     }
@@ -90,7 +92,7 @@ int main () {
     cout << "Choice (B) Evacuate people within a 50 mile radius" << endl;
     cout << "Choice (C) Do NOT evacuate anyone" << endl;
     cin >> userchoice4;
-    while (userchoice4 != "B" || "b"){
+    while (userchoice4 != "B" && userchoice4 != "b"){
         cout << "You have made the wrong choice. Please try again." << endl;
         cin >> userchoice4;
     }
@@ -102,7 +104,7 @@ int main () {
     cout << "Choice (A) Press the green button to reopen the normal spillway sluices" << endl;
     cout << "Choice (B) Press the yellow button to NOT open the normal spillway sluices" <<endl;
     cin >> userchoice5;
-    while (userchoice5 != "B" || "b"){
+    while (userchoice5 != "A" && userchoice5 != "a"){
         cout << "You have made the wrong choice. Please try again." << endl;
         cin >> userchoice5;
     }
@@ -110,8 +112,6 @@ int main () {
     cout << "You have completed the Orville Dam challenge!!" << endl;
     // Board displays flashing lights and congratulates the user
 
-    cout <<"Welcome to our engineering mystery! \n Be prepared to handle the Oroville Dam crisis. We want you as the user to decipher the engineering mistake that nearly lead to one of the largest engineering failures ever. This program will guide you through the four stages that will allow you to make choices on your path to discovering what went wrong. \n Good luck. And may the odds be ever in your favor." << endl;
-    cout<<"The Oroville Dam provides water supply, hydroelectricity generation, and flood control to a region of central California. \n In Febuary 2017, a gaping hole on the dam discovered. This lead to a hasty scramble to figure out a safe solution to fix the hole while combating threats of heavy rainfall and erosion." << endl;
     cout<<"The Arduino control panel contains four buttons and four corresponding colored LED lights that will be used throughout the game. The correct" << endl;
 //Forecast flashes on screen
     cout<<"Here is a weather forecast of central California. Circled in black is the location of the Oroville Dam. \n Which option best describes the predicted amount of rainfall in the forecast? Press the red button for 0.01-0.25 inches, yellow for 0.5-2, green for 3-8, or blue for 8-15." << endl;
