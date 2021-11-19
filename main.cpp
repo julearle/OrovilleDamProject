@@ -30,7 +30,6 @@ int main() {
         cout << "//ADD default setting to restart code if y isn't pressed" << endl;
         cin >> userchoice1;
     }
-    cout << "You are now entering stage 1:" << endl;
 
 //stage 1 begins
 
@@ -150,7 +149,7 @@ int main() {
     cout << "Choice (B) Open all sluices in spillway - press green button." << endl;
     cout << "Choice (C) Open half sluices in spillway - press blue button" << endl;
     cin >> userchoice2;
-    while(userchoice2 != "B" && userchoice2 != "b") {
+    while(userchoice2 != "B" || userchoice2 != "b") {
         cout << "Wrong choice. Try again" << endl;
         cin >> userchoice2;
-*/
+    /*
