@@ -1,4 +1,4 @@
-# Install script for directory: /Users/juliaearle/CLionProjects/OrovilleDamProject
+# Install script for directory: /Users/jlefkoff/Documents/GitHub/OrovilleDamProject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -8,83 +8,88 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug"/>
+				<Option working_dir="/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug"/>
+				<Option working_dir="/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug"/>
+				<Option working_dir="/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OrovilleDamProject">
-				<Option output="/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/OrovilleDamProject" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug"/>
+				<Option output="/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/OrovilleDamProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 OrovilleDamProject"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 OrovilleDamProject"/>
+					<CompileFile command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OrovilleDamProject/fast">
-				<Option output="/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/OrovilleDamProject" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug"/>
+				<Option output="/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/OrovilleDamProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 OrovilleDamProject/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 OrovilleDamProject/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j12 -f &quot;/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/juliaearle/CLionProjects/OrovilleDamProject/imageOpener.cpp">
+		<Unit filename="/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/arduinoComms.cpp">
 			<Option target="OrovilleDamProject"/>
 		</Unit>
-		<Unit filename="/Users/juliaearle/CLionProjects/OrovilleDamProject/main.cpp">
+		<Unit filename="/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/imageOpener.cpp">
 			<Option target="OrovilleDamProject"/>
 		</Unit>
-		<Unit filename="/Users/juliaearle/CLionProjects/OrovilleDamProject/CMakeLists.txt">
+		<Unit filename="/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/main.cpp">
+			<Option target="OrovilleDamProject"/>
+		</Unit>
+		<Unit filename="/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.o"
   "CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.o"
   "CMakeFiles/OrovilleDamProject.dir/main.cpp.o"
   "OrovilleDamProject"
