@@ -49,11 +49,14 @@ int main() {
     while (userchoice2 != "C" || userchoice2 != "c") {
         cout << "Wrong choice. Try again" << endl;
         cin >> userchoice2;
-        cout << "That's correct, the Oroville Dam was inundated with 3-8 inches rain fall. As a result, the water pressure of the dam was record high." << endl;
+        cout
+                << "That's correct, the Oroville Dam was inundated with 3-8 inches rain fall. As a result, the water pressure of the dam was record high."
+                << endl;
 
 //begin stage 2
         cout << "You are now entering stage 2:" << endl;
-        cout << "On February 7th, Orville Dam employees noticed an unusual flow pattern and dark spot on the dam." << endl;
+        cout << "On February 7th, Orville Dam employees noticed an unusual flow pattern and dark spot on the dam."
+             << endl;
         cout << "They bring this issue to the attention of the team of engineers." << endl;
         cout << "What should the engineers do to address this issue?" << endl;
         cout << "Choice (A) Look for human error in calculating the water pressure" << endl;
@@ -69,16 +72,15 @@ int main() {
 //begin stage 3
             cout << "You are now entering stage 3:" << endl;
             cout << "... a gaping hole" << endl;
-            cout<< "To see this hole, slide the switch on the Arduino control panel." << endl;
-
-
-
-
+            cout << "To see this hole, slide the switch on the Arduino control panel." << endl;
+            cout << ""
 
 
             cout << "Because of hole, the emergency action plan has to be put into place." << endl;
             cout << "Here are your options about the emergency action plan:" << endl;
-            cout << "Keep in mind, evacuating people will create a panic, but not evacuating people could result in mass casualties!" << endl;
+            cout
+                    << "Keep in mind, evacuating people will create a panic, but not evacuating people could result in mass casualties!"
+                    << endl;
             cout << "Here are your options:" << endl;
             cout << "Choice (A) Evacuate people within a 10 mile radius" << endl;
             cout << "Choice (B) Evacuate people within a 50 mile radius" << endl;
@@ -95,7 +97,25 @@ int main() {
 
             // Stage 4 begins
             cout << "Welcome to stage 4. This is the final stage. Goodluck!!!" << endl;
-            cout << "Should we reopen the normal spillway to save the integrity of the dam?" << endl;
+
+            cout
+                    << "Here is a weather forecast of central California. Circled in black is the location of the Oroville Dam. \n Which option best describes the predicted amount of rainfall in the forecast? Press the red button for 0.01-0.25 inches, yellow for 0.5-2, green for 3-8, or blue for 8-15."
+                    << endl;
+//green button is correct answer
+            cout
+                    << "That's correct, the Oroville Dam was inundated with 3-8 inches rain fall. As a result, the water pressure of the dam was record high."
+                    << endl;
+
+
+        }
+
+    }
+
+
+/* RANDOM STUFF
+
+
+    cout << "Should we reopen the normal spillway to save the integrity of the dam?" << endl;
             cout << "Choice (A) Press the green button to reopen the normal spillway sluices" << endl;
             cout << "Choice (B) Press the yellow button to NOT open the normal spillway sluices" << endl;
             cin >> userchoice5;
@@ -119,24 +139,6 @@ int main() {
                     << "The Arduino control panel contains four buttons and four corresponding colored LED lights that will be used throughout the game."
                     << endl;
 //Forecast flashes on screen
-            cout
-                    << "Here is a weather forecast of central California. Circled in black is the location of the Oroville Dam. \n Which option best describes the predicted amount of rainfall in the forecast? Press the red button for 0.01-0.25 inches, yellow for 0.5-2, green for 3-8, or blue for 8-15."
-                    << endl;
-//green button is correct answer
-            cout
-                    << "That's correct, the Oroville Dam was inundated with 3-8 inches rain fall. As a result, the water pressure of the dam was record high."
-                    << endl;
-
-
-        }
-
-    }
-
-
-/* RANDOM STUFF
-
-
-
     // FORECAST FLASHES ON SCREEN INSERT JONAH'S CODE HERE
     cout << "The RBG light represents the forecasted amount of precipitation for the reservoir in the incoming storm."
          << endl;
@@ -154,3 +156,4 @@ int main() {
         cout << "Wrong choice. Try again" << endl;
         cin >> userchoice2;
 */
+}
