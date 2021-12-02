@@ -48,10 +48,10 @@ int main() {
     cout << "Choice (D) Blue Button" << endl;
     cin >> userchoice2;
     while (userchoice2 != "C" && userchoice2 != "c") {
-        cout << "Wrong choice. Try again" << endl;
+        cout << "That's not quite right. There should only be one button on the board that turns an LED on. Please try again." << endl;
         cin >> userchoice2;
     }
-    system("killall Preview");
+    system("killall Preview"); //closes image
     cout
             << "That's correct, the Oroville Dam was inundated with 3-8 inches rain fall. As a result, the water pressure of the dam was record high."
             << endl;
@@ -60,6 +60,7 @@ int main() {
     cout << "You are now entering stage 2:" << endl;
     cout << "On February 7th, Orville Dam employees noticed an unusual flow pattern and dark spot on the dam." << endl;
     cout << "They bring this issue to the attention of the team of engineers." << endl;
+    usleep(1000000);
     cout << "What should the engineers do to address this issue?" << endl;
     cout << "Choice (A) Look for human error in calculating the water pressure" << endl;
     cout << "Choice (B) Postpone looking for a solution for a day to wait out the rainy forecast" << endl;
@@ -67,25 +68,29 @@ int main() {
     cout << "Choice (D) Do nothing and hope for the best" << endl;
     cin >> userchoice3;
     while (userchoice3 != "C" && userchoice3 != "c") {
-        cout << "You have made the wrong choice. Please try again." << endl;
+        cout << "That's not quite right. Think about the easiest way to get a better look at the dark spot. Please try again." << endl;
         cin >> userchoice3;
     }
     cout << "That's correct, the engineers turned off the water and found..." << endl;
+    usleep(1000000);
 
 //begin stage 3
     cout << "You are now entering stage 3:" << endl;
     cout << "... a gaping hole" << endl;
     cout << "To see this hole, slide the switch on the Arduino control panel." << endl;
+    usleep(1000000);
 
     cout << "Because of the hole, an emergency action plan has to be put into place." << endl;
     cout << "Keep in mind, evacuating people will create a panic, but not evacuating people could result in mass casualties!" << endl;
+    usleep(1000000);
+
     cout << "Here are the emergency action plan options:" << endl;
     cout << "Choice (A) Evacuate people within a 10 mile radius" << endl;
     cout << "Choice (B) Evacuate people within a 50 mile radius" << endl;
     cout << "Choice (C) Do NOT evacuate anyone" << endl;
     cin >> userchoice4;
     while (userchoice4 != "B" && userchoice4 != "b") {
-        cout << "You have made the wrong choice. Please try again." << endl;
+        cout << "That's not quite right. Caution is the best route, panic aside. Please try again." << endl;
         cin >> userchoice4;
     }
 
@@ -95,7 +100,12 @@ int main() {
     cout << "Should the engineers: \nChoice (A) Continue to let the water flow, eroding the hillside around the dam \nChoice (B) Let the water make the hole bigger, but not erode the hillside \nChoice (C) Attempt a dangerous operation with helicopters dropping cement into the hole \nChoice (D) Do nothing and hope for the best" << endl;
     userchoice5 = "";
     while (userchoice5 != "B" && userchoice5 != "b") {
-        cout << "You have made the wrong choice. Please try again." << endl;
+        if (userchoice5 == "C" || userchoice5 == "c"){
+            cout << "That's not quite right. I too wish helicopters could drop cement. \nThink of the path of greatest sustainability. Please try again." << endl;
+        }
+        else {
+            cout << "That's not quite right. We want the least damage possible, with minimal engineering. \nThink of the path of greatest sustainability. Please try again." << endl;
+        }
         cin >> userchoice5;
     }
     cout << "The engineers decided to let the water erode the hole, therefore you have made the correct choice. Sadly, this choice will cause billions in damage, but no lives are lost." << endl;
