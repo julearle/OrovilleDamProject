@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/1n/yppl5__n5zn2sbxcdhwr0fbc0000gn/T/AppTranslocation/54318B56-D093-42FA-8511-9DE0E92B037C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /private/var/folders/1n/yppl5__n5zn2sbxcdhwr0fbc0000gn/T/AppTranslocation/54318B56-D093-42FA-8511-9DE0E92B037C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jlefkoff/Documents/GitHub/OrovilleDamProject
+CMAKE_SOURCE_DIR = /Users/juliaearle/CLionProjects/OrovilleDamProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OrovilleDamProject.dir/depend.make
@@ -68,42 +68,42 @@ include CMakeFiles/OrovilleDamProject.dir/flags.make
 
 CMakeFiles/OrovilleDamProject.dir/main.cpp.o: CMakeFiles/OrovilleDamProject.dir/flags.make
 CMakeFiles/OrovilleDamProject.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OrovilleDamProject.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OrovilleDamProject.dir/main.cpp.o -c /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OrovilleDamProject.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OrovilleDamProject.dir/main.cpp.o -c /Users/juliaearle/CLionProjects/OrovilleDamProject/main.cpp
 
 CMakeFiles/OrovilleDamProject.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrovilleDamProject.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/main.cpp > CMakeFiles/OrovilleDamProject.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/juliaearle/CLionProjects/OrovilleDamProject/main.cpp > CMakeFiles/OrovilleDamProject.dir/main.cpp.i
 
 CMakeFiles/OrovilleDamProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrovilleDamProject.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/main.cpp -o CMakeFiles/OrovilleDamProject.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/juliaearle/CLionProjects/OrovilleDamProject/main.cpp -o CMakeFiles/OrovilleDamProject.dir/main.cpp.s
 
 CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.o: CMakeFiles/OrovilleDamProject.dir/flags.make
 CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.o: ../imageOpener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.o -c /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/imageOpener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.o -c /Users/juliaearle/CLionProjects/OrovilleDamProject/imageOpener.cpp
 
 CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/imageOpener.cpp > CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/juliaearle/CLionProjects/OrovilleDamProject/imageOpener.cpp > CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.i
 
 CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/imageOpener.cpp -o CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/juliaearle/CLionProjects/OrovilleDamProject/imageOpener.cpp -o CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.s
 
 CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.o: CMakeFiles/OrovilleDamProject.dir/flags.make
 CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.o: ../arduinoComms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.o -c /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/arduinoComms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.o -c /Users/juliaearle/CLionProjects/OrovilleDamProject/arduinoComms.cpp
 
 CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/arduinoComms.cpp > CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/juliaearle/CLionProjects/OrovilleDamProject/arduinoComms.cpp > CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.i
 
 CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/arduinoComms.cpp -o CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/juliaearle/CLionProjects/OrovilleDamProject/arduinoComms.cpp -o CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.s
 
 # Object files for target OrovilleDamProject
 OrovilleDamProject_OBJECTS = \
@@ -119,7 +119,7 @@ OrovilleDamProject: CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.o
 OrovilleDamProject: CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.o
 OrovilleDamProject: CMakeFiles/OrovilleDamProject.dir/build.make
 OrovilleDamProject: CMakeFiles/OrovilleDamProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OrovilleDamProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OrovilleDamProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OrovilleDamProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -131,6 +131,6 @@ CMakeFiles/OrovilleDamProject.dir/clean:
 .PHONY : CMakeFiles/OrovilleDamProject.dir/clean
 
 CMakeFiles/OrovilleDamProject.dir/depend:
-	cd /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jlefkoff/Documents/GitHub/OrovilleDamProject /Users/jlefkoff/Documents/GitHub/OrovilleDamProject /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug /Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/CMakeFiles/OrovilleDamProject.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/juliaearle/CLionProjects/OrovilleDamProject /Users/juliaearle/CLionProjects/OrovilleDamProject /Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug /Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug /Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/CMakeFiles/OrovilleDamProject.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OrovilleDamProject.dir/depend
 

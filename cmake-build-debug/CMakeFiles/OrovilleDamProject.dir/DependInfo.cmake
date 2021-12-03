@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/arduinoComms.cpp" "/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.o"
-  "/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/imageOpener.cpp" "/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.o"
-  "/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/main.cpp" "/Users/jlefkoff/Documents/GitHub/OrovilleDamProject/cmake-build-debug/CMakeFiles/OrovilleDamProject.dir/main.cpp.o"
+  "/Users/juliaearle/CLionProjects/OrovilleDamProject/arduinoComms.cpp" "/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/CMakeFiles/OrovilleDamProject.dir/arduinoComms.cpp.o"
+  "/Users/juliaearle/CLionProjects/OrovilleDamProject/imageOpener.cpp" "/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/CMakeFiles/OrovilleDamProject.dir/imageOpener.cpp.o"
+  "/Users/juliaearle/CLionProjects/OrovilleDamProject/main.cpp" "/Users/juliaearle/CLionProjects/OrovilleDamProject/cmake-build-debug/CMakeFiles/OrovilleDamProject.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

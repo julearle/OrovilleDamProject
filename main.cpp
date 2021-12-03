@@ -15,7 +15,7 @@ int main() {
             << endl;
     usleep(1000000);
     cout
-            << "The Oroville Dam provides water supply, hydroelectricity generation, and flood control to a region of central California. \n In February 2017, a gaping hole on the dam discovered. This lead to a hasty scramble to figure out a safe solution to fix the hole while combating threats of heavy rainfall and dangerous erosion."
+            << "The Oroville Dam provides water supply, hydroelectricity generation, and flood control to a region of central California. \n In February 2017, a gaping hole on the dam was discovered. This led to a hasty scramble to figure out a safe solution to fix the hole while combating threats of heavy rainfall and dangerous erosion."
             << endl;
     usleep(1000000);
     cout
