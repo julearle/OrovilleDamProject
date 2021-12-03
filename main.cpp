@@ -53,12 +53,12 @@ int main() {
     }
     system("killall Preview"); //closes image
     cout
-            << "That's correct, the Oroville Dam was inundated with 3-8 inches rain fall. As a result, the water pressure of the dam was record high."
+            << "That's correct, the Oroville Dam was inundated with 3-8 inches rainfall. As a result, the water pressure of the dam was record high."
             << endl;
 
 //begin stage 2
     cout << "You are now entering stage 2:" << endl;
-    cout << "On February 7th, Orville Dam employees noticed an unusual flow pattern and dark spot on the dam." << endl;
+    cout << "On February 7th, Oroville Dam employees noticed an unusual flow pattern and dark spot on the dam." << endl;
     cout << "They bring this issue to the attention of the team of engineers." << endl;
     usleep(1000000);
     cout << "What should the engineers do to address this issue?" << endl;
